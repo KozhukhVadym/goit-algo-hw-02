@@ -18,7 +18,7 @@ def process_request():
     if not request_queue.empty():
         request = request_queue.get()
         print(f"Обробка {request}")
-        time.sleep(1)  # Імітація часу на обробку заявки
+        time.sleep(1)  # Імітація часу на обробку Заявки
         print(f"{request} оброблено")
     else:
         print("Черга пуста, немає заявок для обробки")
