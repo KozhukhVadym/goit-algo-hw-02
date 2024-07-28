@@ -33,7 +33,7 @@ def main():
                 generate_request()
             elif user_input == 'p':
                 process_request()
-            elif user_input == 'q':
+            elif user_input == 'q':global
                 print("Вихід з програми")
                 break
             else:
