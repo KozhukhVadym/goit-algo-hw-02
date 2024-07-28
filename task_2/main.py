@@ -19,7 +19,7 @@ def is_palindrome(s: str) -> bool:
     return True
 
 # Приклади використання
-print(is_palindrome("No lemon, no melon"))  # Повертає True
-print(is_palindrome("Madam, in Eden, I'm Adam"))  # Повертає True
-print(is_palindrome("Never odd or even"))              # Повертає True
-print(is_palindrome("Hello, World"))                  # Повертає False
+print(is_palindrome("No lemon, no melon"))          # Повертає True
+print(is_palindrome("Madam, in Eden, I'm Adam"))    # Повертає True
+print(is_palindrome("Never odd or even"))           # Повертає True
+print(is_palindrome("Hello, World"))                # Повертає False
